@@ -1,0 +1,11 @@
+Lessons 14 Классический цикл for. Выражения break и continue.
+Циклы в Java.Loop.Петля.
+regular for(for)
+while
+do while
+foreach
+for(инициализация,условия,применение){
+    }
+
+Unreachable statement выражение в нашем коде,которое никогда не достигается
+Java не даёт такой код выполнять
