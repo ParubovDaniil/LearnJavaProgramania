@@ -1,22 +1,29 @@
-package HomeWork14;
+package HomeWork15;
 
 public class HomeWorkAllFine {
     static void vremya() {
+        int chas = 0;
         OUTER:
-        for (int chas = 0; chas < 6; chas++) {
+        while (chas < 6) {
+            int minuta = -1;
             MIDDLE:
-            for (int minuta = 0; minuta < 60; minuta++) {
+            do {
+                minuta++;
                 if (chas > 1 && minuta % 10 == 0) {
                     break OUTER;
                 }
+                int secunda = 0;
                 INNER:
-                for (int secunda = 0; secunda < 60; secunda++) {
+                while (secunda < 60) {
                     if (secunda * chas > minuta) {
                         continue MIDDLE;
                     }
                     System.out.println(chas + ":" + minuta + ":" + secunda);
+                    secunda++;
                 }
             }
+            while (minuta < 59);
+            chas++;
         }
     }
 
