@@ -1,9 +1,9 @@
 package HomeWork16;
 public class HomeWorkClass {
     public void email(String s) {
-        int a = 0;
-        int b = 0;
-        int c = 0;
+        int a = 0;  //Позиция символа @
+        int b = 0;  //Позиция символа .
+        int c = 0;  //Позиция символа ;
         while (c < s.length() - 1) {
             a = s.indexOf('@', c);
             b = s.indexOf('.', c);
