@@ -19,3 +19,5 @@ public class HomeWork {
 }
 //Wrong HomeWork
 //sad
+// Потому что метод equals не переопределён в классе StringBuilder поэтому 2 объекта равны когда
+// их ссылки ссылаются на 1 объект и только
