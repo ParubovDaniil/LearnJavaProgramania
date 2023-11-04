@@ -1,0 +1,4 @@
+Lessons 21 Повторение пройденного материала GarbageCollector
+Ternary operator
+Access modifier
+Невозможность написания рекурсивного конструктора

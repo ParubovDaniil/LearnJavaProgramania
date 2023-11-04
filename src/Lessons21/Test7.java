@@ -16,6 +16,6 @@ public class Test7 {
 
     public static void main(String[] args) {
         Test7 t = new Test7();
-        t.abc(1,2);
+        //t.abc(1,2);
     }
 }
