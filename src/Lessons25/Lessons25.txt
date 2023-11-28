@@ -1,3 +1,6 @@
 Lessons 25.
 Casting
 Polymorhpism
+
+Downcasting и Upcasting
+Downcasting не происходит автоматически, его мы прописываем самостоятельно указывая перед переменной (тип данных переменной)
